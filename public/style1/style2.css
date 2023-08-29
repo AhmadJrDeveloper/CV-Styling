@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 80%;
+    margin: auto;
+}
+h2{
+    display: none;
+}
+#about h3{
+    display: none;
+}
+h1{
+    padding-top: 30px;
+    border-bottom: 1px gray solid;
+}
+figure{
+    position: absolute;
+    top:0;
+    display: inline-block;
+    margin-left: 1100px;
+    width: 500px;
+    transform: rotate(-10deg);
+}
+#about p{
+    
+    opacity: 0.5;
+    width: 60%;
+    text-align: justify;
+}
+h3{
+    font-style: italic;
+}
+#competencies{
+    margin-top: 40px;
+    
+}
+#competencies h3{
+    margin-top: 30px;
+}
+#competencies h3{
+    font-style: italic;
+}
+.skills-primary{
+    margin-bottom: 1%;
+    margin-left:10%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.skills-primary>.skill[data-skill="5"] span{
+    background-color: rgb(27, 84, 122);
+    padding: 10px;
+    font-size: larger;
+    color: white;
+}
+.skill[data-skill="3"] span{
+    background-color: rgb(27, 84, 122);
+    margin-left: 10px;
+    padding: 10px;
+    font-size: larger;
+    color: white;
+}
+.skill[data-skill="1"] span{
+    text-align: start;
+    background-color: rgb(27, 84, 122);
+    margin-left: 10px;
+    padding: 10px;
+    font-size: larger;
+    color: white;
+}
+.skill[data-skill="1"] span::after{
+    content: '\2605';
+    margin-left: 40px;
+}
+.skill[data-skill="3"] span::after{
+    content: '\2605 \2605';
+    margin-left: 40px;
+}
+.skills-primary>.skill[data-skill="5"] span::after{
+    content: '\2605 \2605 \2605';
+    margin-left: 40px;
+}
+.skills-secondary{
+    margin-left:10%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+    
+    
+}
+.skills-secondary>.skill[data-skill="5"] span{
+    background-color: rgb(27, 84, 122);
+    margin-left: 10px;
+    padding: 10px;
+    font-size: smaller;
+    color: white;
+}
+.skill[data-skill="9"] span{
+    background-color: rgb(27, 84, 122);
+    
+    padding: 10px;
+    font-size: smaller;
+    color: white;
+}
+.skill[data-skill="7"] span{
+    text-align: start;
+    background-color: rgb(27, 84, 122);
+    margin-left: 25px;
+    padding: 10px;
+    font-size: smaller;
+    color: white;
+}
+.skill[data-skill="9"] span::after{
+    content: '\2605 \2605 \2605 \2605 \2605';
+    margin-left: 40px;
+}
+.skill[data-skill="5"] span::after{
+    content: '\2605 \2605 \2605';
+    margin-left: 60px;
+}
+.skill[data-skill="7"] span::after{
+    content: '\2605 \2605 \2605 \2605';
+    margin-left: 40px;
+}
+.experience-institution{
+    display: none;
+}
+#experiences{
+    margin-top: 40px;
+}
+.experience-details{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 60px;
+}
+.experience-type{
+    margin-top: 0;
+}
