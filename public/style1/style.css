@@ -1,0 +1,134 @@
+header{
+    background-color: grey;
+    
+}
+hgroup{
+display: inline-block;
+color: red;  
+margin-left: 300px;
+}
+figure{
+    display: inline-block;
+}
+header div {
+    display: flex   ;
+}
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    padding-left: 300px;
+}
+.contacts{
+    position:absolute;
+    top: 20px; 
+}
+.contact{
+    display: grid;
+    grid-template-columns:1fr 3fr;
+    margin-bottom: 0;
+    margin-top: 0;
+
+}
+.contact-type{
+    background-color: red;
+    margin-left: 20px;
+    color: white;
+    font-size: larger;
+    width: 150px;
+    padding-left: 30px;
+}
+.contact-value{ 
+    width: 870px;
+    margin-left: 0;
+    background-color: black;
+    padding-left: 5px;
+    font-size: larger
+}
+.contact-value a{
+    background-color: black;
+    margin: 0;
+
+    color: red;
+    text-decoration: none;
+}
+#about{
+    padding-top: 30px;
+    font-size: larger;
+
+}
+h3{
+    border-bottom: solid gray;
+
+}
+#competencies{
+    padding-top: 30px;
+    font-size: larger;
+}
+.skills-primary::before{
+    content: 'Main';
+    color: black;
+    margin: 0;
+    font-size: 20px;
+}
+.skills-secondary::before{
+    content: 'Other';
+    color: black;
+    margin: 0;
+    font-size: 20px;
+}
+
+.skill{
+    background-color: rgb(209, 197, 197);
+    padding: 10px;
+    margin-bottom: 4px;
+    width: 80%;
+    color: white;
+    line-height: 2;
+    
+}
+.skills-primary{
+    padding-bottom: 30px;
+}
+.skills-primary>.skill[data-skill="5"] span{
+    background-color: red;
+    width: 40%;
+    display: inline-block;
+}
+
+#experiences,#education,#hobbies{
+    text-align:start; 
+    font-size: larger;
+}   
+
+.experience h4{
+    color: red;
+}
+.experience-details{
+    color: gray;
+    padding-left:15px;
+    line-height: 1px;
+    
+}
+h3::before{
+    content: '.';
+    color: red;
+    font-size: 150px;
+    padding-right: 10px;
+}
+.experience-institution::before{
+    content: '@ ';
+    color: red;
+
+}
+
+#contact h3{
+    display: none;
+}
+.experience-date-separator{
+    color: red;
+}
+
+
+
+
